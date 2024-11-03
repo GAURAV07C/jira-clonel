@@ -86,7 +86,7 @@ export default function Home() {
         </Link>
 
         <Link href={'/onboarding'}>
-        <Button size='lg' variant={'outline'} className="mr-4">Learn More </Button>
+        <Button size='lg' variant={'outline'} className="mr-4 bg-black">Learn More </Button>
         </Link>
 
       </section>

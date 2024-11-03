@@ -42,7 +42,7 @@ export const cheakUser = async () => {
             imageUrl: newUser.imageUrl,
         };
     } catch (err) {
-        console.error("Error in cheakUser:", err);
+        console.error("Error in checkUser:", JSON.stringify(err, null, 2));
         return null;
     }
 };

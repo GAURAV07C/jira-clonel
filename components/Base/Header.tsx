@@ -6,6 +6,7 @@ import { Button } from '../ui/button'
 import { FaRegPenToSquare } from "react-icons/fa6";
 import UserMenu from './User-menu'
 import { cheakUser } from '@/lib/cheakUser'
+import UserLoading from '../User-loading'
 
 const Header = async () => {
   await cheakUser()
@@ -40,6 +41,7 @@ const Header = async () => {
       </SignedIn>
     </div>
         </nav>
+        <UserLoading />
       </header>
   )
 }
