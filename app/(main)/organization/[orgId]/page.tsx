@@ -18,7 +18,7 @@ interface OrganisationProps {
 const Organisation = async ({ params }: OrganisationProps) => {
     // Await the params promise to resolve and extract orgId
     const { orgId } = await params; 
-    console.log('Resolved Params:', orgId);
+    
 
     // Await the auth call to ensure you get the userId
     const { userId } = await auth();

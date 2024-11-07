@@ -1,6 +1,6 @@
 import React from 'react'
 import Autoplay from "embla-carousel-autoplay"
-import componies from '@/data/componies'
+import componies from '@/data/componies.json'
 import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel'
 import Image from 'next/image'
 const CompanyCarousel = () => {
